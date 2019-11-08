@@ -1,0 +1,41 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wireframe of Bring It (Please) app</title>
+    <link href="mainForm.css" rel="stylesheet" type="text/css" />
+    <link href="wireframe.css" rel="stylesheet" type="text/css" />
+    <link href="login.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+        <nav>
+            <header>Bring It (Please)</header>
+            <div class="navInteraction">
+                <a href="moreInfo.html">More Info</a>
+                <a href="registerForm.html"><button>Register</button></a>
+                <button>Log in</button>
+            </div>
+        </nav>
+        <div class="spacer"></div>
+    <main>  
+        <form class="demo-form" action="/some-server-endpoint" method ="post">
+            <h1>Welcome back! Please log in.</h1>
+            <fieldset name="contact-info">
+
+                <label for="nick-name">Nickname</label>
+                <input type="text" name="nick-name" id="nick-name" placeholder="Rosy" />
+            
+                <label for="password" required>Password (8 characters minimum)</label>
+                <input type="password" pattern="^[1-9]\d{2}-\d{3}-\d{4}" name="password" id="password" placeholder="888-888-8888" title="Select your password" minlength="8" />
+
+            </fieldset>
+        </form>
+        <a href="homeSearch.html"><button class="butLog" type="submit">Login</button> </a>
+        <a href="wireframe.html"><button  class="butCan" type="cancel">Cancel</button></a>
+    </main> 
+    <div class="spacer"></div>
+    <footer>
+        <p>2019 | Bring it (Please)</p>
+      </footer>   
+  </body>
+</html>

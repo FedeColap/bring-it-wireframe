@@ -1,0 +1,57 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Wireframe of Bring It (Please) app</title>
+    <link href="mainForm.css" rel="stylesheet" type="text/css" />
+    <link href="wireframe.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+        <nav>
+            <header>Bring It (Please)</header>
+            <div class="navInteraction">
+                <a href="moreInfo.html">More Info</a>
+                <a href="newTrip.html"><button>New Trip</button></a>
+                <a href="wireframe.html"><button>Log out</button></a>
+            </div>
+        </nav>
+        <div class="spacer"></div>
+    <main>  
+        <form class="demo-form" action="/some-server-endpoint" method ="post">
+            <h1>Seach for available users</h1>
+            <h4>Please answer these question to find out if someone is traveling to a foreign Country and is available to bring you something back.</h4>
+            <fieldset name="contact-info">
+                <!-- <legend>Contact info</legend> -->
+
+                <label for="country">Which Country would you like some goods from?</label>
+                <input type="text" name="country" id="country" placeholder="Italy" />
+
+
+                <label class="months" for="months">Which month would you like to receive the goods?</label>
+                <select name="months" id="months" required>
+                    <option value ="gen">January</option>
+                    <option value ="feb">February</option>
+                    <option value ="mar">March</option>
+                    <option value ="apr">April</option>
+                    <option value ="may">May</option>
+                    <option value ="jun">June</option>
+                    <option value ="jul">July</option>
+                    <option value ="aug">August</option>
+                    <option value ="sep">September</option>
+                    <option value ="oct">October</option>
+                    <option value ="nov">November</option>
+                    <option value ="dec">December</option>
+                    <option value ="next">Next Year</option>    
+                </select>
+            </fieldset>
+            
+        </form>
+        <a href="homeResults.html"><button class="butSub" type="submit">Search for users</button> </a>
+    </main> 
+
+    <div class="spacer"></div>
+  <footer>
+    <p>2019 | Bring it (Please)</p>
+  </footer> 
+  </body>
+</html>

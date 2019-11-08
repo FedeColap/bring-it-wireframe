@@ -1,0 +1,21 @@
+.butLog, .butCan {
+    display: block;
+    margin: auto;
+}
+
+
+/*for the phones*/
+@media screen and (max-width: 510px) {
+  
+    
+}
+/* for tablets */
+@media screen and (min-width: 510px) {
+    
+    
+}
+/* for computers */
+@media screen and (min-width: 1400px) {
+  
+    
+} 
